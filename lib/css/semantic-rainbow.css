@@ -1,0 +1,352 @@
+/* Import all the color variables and classes */
+/* ---------------------------------- */
+/* Pure Color Variables */
+/* ---------------------------------- */
+/*	A list of the colors of the rainbow, named semantically. */
+/*	--------------------------------------------------------- */
+/*	Mixin to create a class for every color in the color wheel. */
+/*	--------------------------- */
+/*	Setting the classes through the mixin */
+/*	===================================== */
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.red-text {
+  color: #ff2b00; }
+
+.red-orange-text {
+  color: #ff5500; }
+
+.orange-red-text {
+  color: #ff8000; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-red {
+  background: #ff2b00; }
+
+.bg-red-orange {
+  background: #ff5500; }
+
+.bg-orange-red {
+  background: #ff8000; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.orange-text {
+  color: #ff5500; }
+
+.orange-yellow-text {
+  color: #ff8000; }
+
+.yellow-orange-text {
+  color: #ffaa00; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-orange {
+  background: #ff5500; }
+
+.bg-orange-yellow {
+  background: #ff8000; }
+
+.bg-yellow-orange {
+  background: #ffaa00; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.yellow-text {
+  color: #ff8000; }
+
+.yellow-lime-text {
+  color: #ffaa00; }
+
+.lime-yellow-text {
+  color: #ffd500; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-yellow {
+  background: #ff8000; }
+
+.bg-yellow-lime {
+  background: #ffaa00; }
+
+.bg-lime-yellow {
+  background: #ffd500; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.lime-text {
+  color: #ffaa00; }
+
+.lime-green-text {
+  color: #ffd500; }
+
+.green-lime-text {
+  color: yellow; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-lime {
+  background: #ffaa00; }
+
+.bg-lime-green {
+  background: #ffd500; }
+
+.bg-green-lime {
+  background: yellow; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.green-text {
+  color: #ffd500; }
+
+.green-mint-text {
+  color: yellow; }
+
+.mint-green-text {
+  color: #d4ff00; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-green {
+  background: #ffd500; }
+
+.bg-green-mint {
+  background: yellow; }
+
+.bg-mint-green {
+  background: #d4ff00; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.mint-text {
+  color: yellow; }
+
+.mint-cyan-text {
+  color: #d4ff00; }
+
+.cyan-mint-text {
+  color: #aaff00; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-mint {
+  background: yellow; }
+
+.bg-mint-cyan {
+  background: #d4ff00; }
+
+.bg-cyan-mint {
+  background: #aaff00; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.cyan-text {
+  color: #d4ff00; }
+
+.cyan-azure-text {
+  color: #aaff00; }
+
+.azure-cyan-text {
+  color: #80ff00; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-cyan {
+  background: #d4ff00; }
+
+.bg-cyan-azure {
+  background: #aaff00; }
+
+.bg-azure-cyan {
+  background: #80ff00; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.azure-text {
+  color: #aaff00; }
+
+.azure-blue-text {
+  color: #80ff00; }
+
+.blue-azure-text {
+  color: #55ff00; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-azure {
+  background: #aaff00; }
+
+.bg-azure-blue {
+  background: #80ff00; }
+
+.bg-blue-azure {
+  background: #55ff00; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.blue-text {
+  color: #80ff00; }
+
+.blue-violet-text {
+  color: #55ff00; }
+
+.violet-blue-text {
+  color: #2bff00; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-blue {
+  background: #80ff00; }
+
+.bg-blue-violet {
+  background: #55ff00; }
+
+.bg-violet-blue {
+  background: #2bff00; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.violet-text {
+  color: #55ff00; }
+
+.violet-magenta-text {
+  color: #2bff00; }
+
+.magenta-violet-text {
+  color: lime; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-violet {
+  background: #55ff00; }
+
+.bg-violet-magenta {
+  background: #2bff00; }
+
+.bg-magenta-violet {
+  background: lime; }
+
+/*	Sets the Hue variables */
+/*	Set the text color classes */
+/*	-------------------------- */
+.pink-text {
+  color: lime; }
+
+.pink-red-text {
+  color: #00ff2b; }
+
+.red-pink-text {
+  color: #00ff55; }
+
+/*	Set the Background Colors */
+/*	------------------------- */
+.bg-pink {
+  background: lime; }
+
+.bg-pink-red {
+  background: #00ff2b; }
+
+.bg-red-pink {
+  background: #00ff55; }
+
+/* Import all the positioning elements */
+/* ---------------------------------- */
+body {
+  font-weight: bold; }
+
+/* Import the typographic hacks */
+/* ---------------------------------- */
+/* Line Heights */
+/* ---------------------------------- */
+.line-height-0-5 {
+  line-height: 0.5em; }
+
+.line-height-0-75 {
+  line-height: 0.75em; }
+
+.line-height-1 {
+  line-height: 1em; }
+
+.line-height-1-25 {
+  line-height: 1.25em; }
+
+.line-height-1-5 {
+  line-height: 1.5em; }
+
+.line-height-1-75 {
+  line-height: 1.75em; }
+
+.line-height-2 {
+  line-height: 2em; }
+
+.line-height-2-5 {
+  line-height: 2.5em; }
+
+/* Text Transforms */
+/* ---------------------------------- */
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+/* Text Decorations */
+/* ---------------------------------- */
+.underline {
+  text-decoration: underline; }
+
+.strike {
+  text-decoration: linethrough; }
+
+.no-decoration {
+  text-decoration: none; }
+
+/* Font Weights */
+/* ---------------------------------- */
+.bold {
+  font-weight: bold; }
+
+.thin {
+  font-weight: normal; }
+
+/* Font Styles */
+/* ---------------------------------- */
+.italic {
+  font-style: italic; }
+
+.non-italic {
+  font-style: normal; }
+
+small,
+.xsmall {
+  font-size: 10px; }
+
+.small {
+  font-size: 14px; }
+
+.medium {
+  font-size: 18px; }
+
+.large {
+  font-size: 24px; }
+
+.xlarge {
+  font-size: 31px; }
+
+.xxlarge {
+  font-size: 41px; }
