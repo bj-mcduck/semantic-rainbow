@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email         = ["admin@brandonjmckay.com"]
   s.homepage      = "https://github.com/brandonjmckay/semantic-rainbow"
   s.summary       = %q{Simple SASS colour variables.}
-  s.description   = %q{A full range of HSL and Pantone values made into easy-to-use SASS variables.}
+  s.description   = %q{A full range of HSL, and Pantone values made into easy-to-use SASS variables.}
   
   s.license       = "MIT"
 
