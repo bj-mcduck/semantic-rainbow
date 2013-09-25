@@ -1,42 +1,52 @@
 Semantic Rainbow
 ================
-Semantic Rainbow is a gem that gives you SASS variables for the main HSL values.
+Semantic Rainbow is a gem that gives you easy-to-remember SASS variables for HSL values all around the colour wheel, and Pantone values.
 
-##### Main Colour Names: 
+## HSL
+
+For HSL, Each new value is 10 degrees away from the previous value on the colour wheel. The main colours are 30 degrees apart from each other, with 
+
+### Colour Names: 
 
 The color names have been kept as simple and straight-forward as possible. 
 
-- Red
-- Orange
-- Yellow
-- Lime
-- Green
-- Mint
-- Cyan
-- Azure
-- Blue
-- Violet
-- Magenta 
-- Pink
+- Red `0 degrees`
+- Orange `30 degrees`
+- Yellow `60 degrees`
+- Lime `90 degrees`
+- Green `120 degrees`
+- Teal `150 degrees`
+- Cyan `180 degrees`
+- Azure `210 degrees`
+- Blue `240 degrees`
+- Violet `270 degrees`
+- Magenta `300 degrees`
+- Pink `330 degrees`
 
-For any one of the main color names just use `$red` or `$orange` in your SASS file.
+These main color names cover every 30 degrees or so. To use one of these, just put `$red` or `$orange` in your SASS file.
 
-	color:				$red;
+```scss
+color:        $red;
+```
 
 To get a *red-like orange* tone, or an *orange-like red*, use the format of `$red-orange` or `$orange-red` respectively.
 
-	color:				$orange-red;
+```scss
+color:        $orange-red;
+```
 
-Installing
-----------
+How to Install
+--------------
 
 If you're using Rails then just add `gem "semantic-rainbow"` to your gemfile, and then use the `bundle` command.
 
 Then in your SCSS file import the file:
-  
-  # app/assets/stylesheets/application.css.scss
-  @import "semantic-rainbow";
-  @import "other-file-that-will-use-it"
+
+```scss
+/* app/assets/stylesheets/application.css.scss */
+@import "semantic-rainbow";
+@import "other-file-that-will-use-it";
+```
 
 Creative Commons License
 ------------------------
