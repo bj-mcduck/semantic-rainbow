@@ -11,14 +11,7 @@ Gem::Specification.new do |s|
   s.summary       = %q{Simple SASS colour variables.}
   s.description   = %q{A full range of HSL and Pantone values made into easy-to-use SASS variables.}
   
-  # s.rubyforge_project = "semantic-rainbow"
-
-  # s.license       = "MIT"
-
-  # s.files         = `git ls-files`.split($/)
-  # s.test_files    = s.files.grep(%r{^(test|spec|features)/})
-  # s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  # s.require_paths = ["lib"]
+  s.license       = "MIT"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -27,7 +27,16 @@ To get a *red-like orange* tone, or an *orange-like red*, use the format of `$re
 
 	color:				$orange-red;
 
+Installing
+----------
 
+If you're using Rails then just add `gem "semantic-rainbow"` to your gemfile, and then use the `bundle` command.
+
+Then in your SCSS file import the file:
+  
+  # app/assets/stylesheets/application.css.scss
+  @import "semantic-rainbow";
+  @import "other-file-that-will-use-it"
 
 Creative Commons License
 ------------------------
