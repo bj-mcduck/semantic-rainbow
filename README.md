@@ -1,13 +1,10 @@
 Semantic Rainbow
 ================
-Semantic Rainbow is a gem that gives you easy-to-remember SASS variables for HSL values all around the colour wheel, and Pantone values.
+Semantic-Rainbow is a gem that gives you easy-to-remember SASS variables for every main HSL value in the rainbow.
 
-## HSL
+HSL has 360 degrees on the colour wheel; Semantic-Rainbow creates a SASS variable for every 10 degrees throughout it.
 
-For HSL, there are 360 degrees on the colour wheel. Every variable in Semantic Rainbow HSL is 10 degrees away from the previous value on the colour wheel. The main colours are 30 degrees apart from each other, with 
-colour-mixes filling in the gaps.
-
-### Colour Names: 
+### Naming Conventions: 
 
 The color names have been kept as simple and straight-forward as possible. 
 
@@ -27,8 +24,10 @@ The color names have been kept as simple and straight-forward as possible.
 To use any one of these solid colours, just use its' name as you would a SASS variable.
 
 ```scss
-color:        $violet;
+color:        $violet; 
+//$violet is the same as using hsl(270, 100%, 50%)
 background:   $teal;
+//$teal is the same as using hsl(150, 100%, 50%)
 ```
 
 For mixing these colours together and getting a *red-like orange* tone, or an *orange-like red*, use the format of `$red-orange` or `$orange-red` respectively.
@@ -36,17 +35,6 @@ For mixing these colours together and getting a *red-like orange* tone, or an *o
 ```scss
 color:        $orange-red;
 background:   $violet-magenta;
-```
-
-### Pantones
-
-I'll be working my way through the Pantone Colour Bridge shortly.
-I plan to use a syntax like:
-
-```sass
-$pantone-250
-$pantone-5875
-$pantone-process-black
 ```
 
 How to Install
